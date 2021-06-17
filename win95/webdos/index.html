@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon.png"/>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png"/>
+	<link rel="stylesheet" href="style.css"/>
+	<script defer src="script.js"></script>
+	<script defer src="commands/cls.js"></script>
+	<script defer src="commands/date.js"></script>
+	<script defer src="commands/dir.js"></script>
+	<script defer src="commands/exit.js"></script>
+	<script defer src="commands/help.js"></script>
+	<script defer src="commands/mode.js"></script>
+	<script defer src="commands/time.js"></script>
+	<script defer src="commands/type.js"></script>
+	<script defer src="commands/ver.js"></script>
+	<script defer src="commands/website.js"></script>
+	<script defer src="commands/win.js"></script>
+	<script defer src="commands/girl.js"></script>
+	<title>WebDOS</title>
+	<meta name="description" content="WebDOS - a simple terminal but it isn't finish"/>
+	<meta name="keywords" content="WebDOS, DOS, MS-DOS, PC-DOS, 86-DOS, QDOS, DOS Prompt, MS-DOS Prompt, command-line inteface, command-line interpreter, cli, command prompt, terminal, console, shell"/>
+</head>
+<body onclick="focusCommandInput()">
+	<pre id="command-output">WebDOS ver. 0.1 Edited<br>Type <em>HELP</em> to get command information<br><br></pre>
+	<div id="command-prompt">C:\&gt;</div>
+	<input type="text" id="command-input" autofocus onkeypress="pressEnter(event)"/>
+	<!--<div id="win31">
+		<iframe  src="../win31/index.html" title="Win31" allowfullscreen></iframe>
+	</div>-->
+</body>
+</html>

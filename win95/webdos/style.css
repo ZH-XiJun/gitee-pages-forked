@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "Perfect DOS VGA 437";
+ 	src: url("webfonts/Perfect DOS VGA 437.ttf");
+}
+
+* {
+	background-color: #000;
+	color: #aaa;
+	font-family: "Perfect DOS VGA 437", monospace;
+}
+
+body {
+	margin: 5px;
+	height: calc(100vh - 10px);
+	overflow-y: hidden;
+	font-size: 16px;
+	/*-moz-tab-size: 4;*/
+}
+
+pre#command-output {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 57px;
+	min-height: 0;
+	max-height: calc(100% - 40px);
+	overflow-y: hidden;
+	white-space: pre-wrap; 
+    /*word-break: break-word;*/
+}
+
+div#command-prompt,
+input#command-input {
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div#command-prompt {
+	width: 4ch;
+}
+
+input#command-input {
+	width: calc(100% - 4ch);
+	font-size: 16px;
+}
+
+input#command-input:focus {
+	outline: none;
+}
+
+em {
+	color: #fff;
+	font-style: normal;
+}
+
+.green {
+	color: #0a0;
+}
+
+.blue {
+	color: #77f;
+}
+
+.yellow {
+	color: #ff5;
+}
+
+#win31 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+	#win31 iframe {
+		border: none;
+		width: 100%;
+		height: 100%;
+	}
