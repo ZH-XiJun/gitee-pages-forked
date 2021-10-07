@@ -26,21 +26,19 @@ Screenshots
 
 To do
 -----
-* everything
+* complete start menu
+* more language support
+* bruh
 
 Author
 ------
 Karol Kiersnowski
+ZH-XiJun (That's me)
 
 License for source code
 -----------------------
 [GNU General Public License v3.0](https://github.com/karol-kiersnowski/win95/blob/master/LICENSE)
 
-===================================
-
-Based from karol-kiersnowski, follow GNU General Public License v3.0
-
 What's new
 ----------
 I just add something new.
-PS: 666 does NOT mean terror here
